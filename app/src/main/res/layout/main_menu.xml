@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lvls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lvls"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl"
+                />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl2"
+                />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl3"
+                />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl4"
+                />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5"
+                android:background="@drawable/start_btn_stroke"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl5"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl6"
+                />
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl7"
+                />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl8"
+                />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl9"
+                />
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10"
+                android:background="@drawable/start_btn_stroke"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl10"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/bt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="11"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl11"
+                />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="12"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl12"
+                />
+
+            <Button
+                android:id="@+id/bt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="13"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl13"
+                />
+
+            <Button
+                android:id="@+id/bt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="14"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                />
+
+            <Button
+                android:id="@+id/bt15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15"
+                android:background="@drawable/start_btn_stroke"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/bt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="16"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl16"
+                />
+
+            <Button
+                android:id="@+id/bt17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="17"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl17"
+
+                />
+
+            <Button
+                android:id="@+id/bt18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="18"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:onClick="mmToLvl18"
+                />
+
+            <Button
+                android:id="@+id/bt19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="19"
+                android:background="@drawable/start_btn_stroke"
+                android:layout_marginRight="10dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                />
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20"
+                android:background="@drawable/start_btn_stroke"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/btn_endless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:fontFamily="@font/pixel_font"
+                android:text="@string/endmode"
+                android:background="@drawable/start_btn_stroke"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
